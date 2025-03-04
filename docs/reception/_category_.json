@@ -1,0 +1,8 @@
+{
+  "label": "Tiếp Nhận",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Quản lý tiếp nhận, đăng ký dịch vụ, thanh toán và danh sách khách hàng."
+  }
+}

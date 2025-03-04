@@ -1,0 +1,97 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1975dc;
+  --ifm-color-primary-dark: #155a9c;
+  --ifm-color-primary-darker: #12487c;
+  --ifm-color-primary-darkest: #0e365c;
+  --ifm-color-primary-light: #4a9ef5;
+  --ifm-color-primary-lighter: #7ab8f7;
+  --ifm-color-primary-lightest: #a9d2fa;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #1975dc;
+  --ifm-color-primary-dark: #155a9c;
+  --ifm-color-primary-darker: #12487c;
+  --ifm-color-primary-darkest: #0e365c;
+  --ifm-color-primary-light: #4a9ef5;
+  --ifm-color-primary-lighter: #7ab8f7;
+  --ifm-color-primary-lightest: #a9d2fa;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom: General */
+highlight {
+  background-color: #E8F9FF;
+  padding: 0.25rem 0.5rem 0.4rem;
+  border-radius: 0.5rem;
+}
+
+/* custom navbar */
+
+.navbar {
+  /* box-shadow: none; */
+  height: 4rem;
+}
+
+.navbar__logo {
+  height: 45px;
+}
+
+.navbar__item {
+  color: #ffffff;
+}
+
+.navbar__link {
+  color: rgb(64 71 86);
+  text-decoration: none;
+}
+
+/* Custom Hero */
+.hero__logo {
+  width: 40%;
+  margin-right: 50px;
+  margin-bottom: -16px;
+}
+
+.hero__subtitle {
+  font-weight: 600;
+}
+
+/* Custom Footer */
+/* .footer {
+  background-color: #fafafb;
+  color: #23272f;
+}
+
+.footer__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+} */
+
+/* Custom Content */
+
+.img-shadow {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 
+              4px 4px 10px rgba(0, 0, 0, 0.3), 
+              6px 6px 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}

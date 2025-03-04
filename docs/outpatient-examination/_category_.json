@@ -1,0 +1,8 @@
+{
+  "label": "Khám Ngoại Trú",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Quản lý khám ngoại trú, đo sinh hiệu và khám YHGĐ v2."
+  }
+}
